@@ -1,0 +1,6 @@
+t = input('Informe algo: ')
+print('O tipo primitivo é: ',type(t))
+print('É numerico:', t.isnumeric())
+print('É alphanumerico: ', t.isalpha())
+print('Está tudo maiúsculo ', t.isupper())
+print('Está tudo minusculo', t.islower())

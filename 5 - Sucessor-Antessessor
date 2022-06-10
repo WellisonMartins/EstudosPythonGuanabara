@@ -1,0 +1,5 @@
+ni = int(input('Informe um número: '))
+sucessor = ni + 1
+antecessor = ni - 1
+print('O sucessor de {} é: {} e o antecessor é: {}'.format(ni, sucessor, antecessor))
+
